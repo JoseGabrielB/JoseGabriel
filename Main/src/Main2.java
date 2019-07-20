@@ -5,7 +5,7 @@ public class Main2 {
 		int size = (int) Math.sqrt(a.length);
 		for (int i = 0; i < size; i++) {
 			for (int e = 0; e < size - i; e++) {
-				System.out.print(a[(i * size + e)] + "\t");
+				System.out.print(a[(i * size + e)] + " \t");
 			}
 			System.out.println();
 
